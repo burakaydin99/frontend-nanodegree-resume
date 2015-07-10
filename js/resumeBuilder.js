@@ -20,6 +20,13 @@ console.log(str2);
 
  */
 
+
+ var skills = ["20","30","40","50","60"];
+
+ $("#main").append(skills);
+ console.log(skills.length);
+ console.log(skills[skills.length - 1] - 5);
+
 var s = "audacity";
 
 var udacityizer = function(s) {  
